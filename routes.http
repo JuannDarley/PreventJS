@@ -1,23 +1,23 @@
-POST http://localhost:3333/videos
+POST https://preventjs.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "Video JavaScript",
-    "description": "This is video Two",
+    "title": "Video Test",
+    "description": "This is video Four",
     "duration": 90
 
 }
 
 ###
 
-GET http://localhost:3333/videos
+GET https://preventjs.onrender.com/videos
 
 
 ###
 
-PUT  http://localhost:3333/videos/
+PUT  https://preventjs.onrender.com/videos/
 Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/
+DELETE https://preventjs.onrender.com/videos/6276a563-922d-4af4-8fd9-4368b1e3aaa8
